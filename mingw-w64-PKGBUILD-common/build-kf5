@@ -32,6 +32,10 @@ kitemviews-qt5
 kplotting-qt5
 kwidgetsaddons-qt5
 #solid-qt5
+kcompletion-qt5
+kauth-qt5
+kconfigwidgets-qt5
+kiconthemes-qt5
 )
 
 for pkg in "${pkgs[@]}"; do
