@@ -23,16 +23,15 @@ kdbusaddons-qt5
 kguiaddons-qt5
 ki18n-qt5
 kwindowsystem-qt5
-kcrash-qt5
-kglobalaccel-qt5
+#kcrash-qt5
 kidletime-qt5
-kimageformats-qt5
+#kimageformats-qt5
 kitemmodels-qt5
 kitemviews-qt5
-kjs-qt5
+#kjs-qt5
 kplotting-qt5
 kwidgetsaddons-qt5
-solid-qt5
+#solid-qt5
 )
 
 for pkg in "${pkgs[@]}"; do
