@@ -36,6 +36,7 @@ kcompletion-qt5
 kauth-qt5
 kconfigwidgets-qt5
 kiconthemes-qt5
+breeze-icons-qt5
 )
 
 for pkg in "${pkgs[@]}"; do
