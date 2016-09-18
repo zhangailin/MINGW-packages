@@ -1,0 +1,11 @@
+--- kcoreaddons-5.26.0.orig/src/lib/util/kuser_win.cpp	2016-09-06 19:58:04 +0800
++++ kcoreaddons-5.26.0/src/lib/util/kuser_win.cpp	2016-09-18 12:15:29 +0800
+@@ -853,7 +853,7 @@
+     HANDLE _token;
+     if (!OpenProcessToken(GetCurrentProcess(), TOKEN_QUERY, &_token)) {
+         qWarning("Failed to get the token for the current process: %d", (int)GetLastError());
+-        return false;
++        return nullptr;
+     }
+     ScopedHANDLE token(_token, handleCloser);
+     // query required size
