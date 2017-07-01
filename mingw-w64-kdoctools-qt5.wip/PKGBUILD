@@ -1,4 +1,4 @@
- Maintainer (MSYS2): Ray Donnelly <mingw.android@gmail.com>
+# Maintainer (MSYS2): Ray Donnelly <mingw.android@gmail.com>
 
 _variant=-${KF5_VARIANT:-shared}
 source "$(dirname ${BASH_SOURCE[0]})"/../mingw-w64-PKGBUILD-common/kde-frameworks5
